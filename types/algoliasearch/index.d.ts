@@ -1207,6 +1207,12 @@ declare namespace algoliasearch {
      * default: []
      */
     optionalWords?: string[];
+     /**
+     * Determines how to calculate the total score for filtering
+     * default: false
+     * https://www.algolia.com/doc/api-reference/api-parameters/sumOrFiltersScores/
+     */
+    sumOrFiltersScores?: boolean;
     /**
      * Remove stop words from the query before executing it
      * default: false
